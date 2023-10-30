@@ -12,10 +12,13 @@ mycursor = mydb.cursor()
 
 bi = """
     <style>
-    background-image: url("https://images2.alphacoders.com/261/26102.jpg");
-    background-size: cover;
+    body {
+        background-image: url("https://images2.alphacoders.com/261/26102.jpg");
+        background-size: cover;
+    }
     </style>
 """
+
 
 st.markdown(bi, unsafe_allow_html=True)
 
