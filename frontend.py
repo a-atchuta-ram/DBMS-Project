@@ -13,11 +13,12 @@ mycursor = mydb.cursor()
 st.markdown(
     """
     <style>
-    {% include 'design.css' %}
+    background-image:url("https://images2.alphacoders.com/261/26102.jpg")
+
     </style>
-    , 
+    """,
     unsafe_allow_html=True
-    """
+    
 )
 
 
