@@ -10,16 +10,14 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-st.markdown(
-    """
+bi = """
     <style>
-    background-image:url("https://images2.alphacoders.com/261/26102.jpg")
-
+    background-image: url("https://images2.alphacoders.com/261/26102.jpg");
+    background-size: cover;
     </style>
-    """,
-    unsafe_allow_html=True
-    
-)
+"""
+
+st.markdown(bi, unsafe_allow_html=True)
 
 
 def main():
